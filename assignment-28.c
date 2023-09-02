@@ -1,5 +1,16 @@
 #include <stdio.h>
 
+int isPrime(int n);
+
+int main() 
+{
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    isPrime(num);
+    return 0;
+}
+
 int isPrime(int n)
 {
     if (n <= 1)
@@ -16,14 +27,5 @@ int isPrime(int n)
         }
     }
     printf("Prime Number.\n");
-    return 0;
-}
-
-int main() 
-{
-    int num;
-    printf("Enter a number: ");
-    scanf("%d", &num);
-    isPrime(num);
     return 0;
 }
