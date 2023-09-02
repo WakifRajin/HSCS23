@@ -9,7 +9,8 @@ This course is aimed at introducing students to the fundamentals of C programmin
 <h2>Repository Contents</h2>
 
 In this repository, you will find the source code for all 28 assignments covered during the course. Each assignment is organized into its own directory, making it easy to navigate and explore the code. The assignments are structured to help students progressively build their programming skills, from basic concepts to more advanced topics.
-Compatibility Notice
+
+# Compatibility Notice
 
 **It's important to note that while these assignments were designed for the hscict.org platform, there may be instances where some of the code might not work perfectly on the platform due to various reasons such as updates or differences in the development environment**. However, the provided code should serve as a valuable resource for learning and reference.
 How to Use This Repository
