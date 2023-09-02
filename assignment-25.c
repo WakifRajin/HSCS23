@@ -7,13 +7,11 @@ int main() {
 
     printf("district1: ");
     scanf("%30s", district1);
-
     printf("district2: ");
     scanf("%30s", district2);
+    printf("\n");
 
     int comparisonResult = strcmp(district1, district2);
-
-    printf("\n");
 
     if (comparisonResult == 0) {
         printf("Both districts have the same name: %s\n", district1);
