@@ -1,29 +1,29 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main()
+void main()
 {
     char name[21];
-    scanf("%s", name);
-
     char key;
+    int temp = 0;
+    
+    scanf("%s", name);
     scanf(" %c", &key);
-
-    int length=0;
+    
     for(int i=0; name[i]!='\0'; i++)
     {
-        length=1+i;
-    }
-
-    for(int n=0; n<=length; n++)
-    {
-        if(name[n]==key)
-        {
-           printf("yes");
+       if(name[i]==key)
+       {
+           temp=1;
            break;
-        }
-        if(n==length)
-        {
-            printf("no");
-        }
+       }
+    }
+    
+    if(temp==1)
+    {
+        printf("yes");
+    }
+    else
+    {
+        printf("no");
     }
 }
